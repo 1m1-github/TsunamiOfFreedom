@@ -1,0 +1,226 @@
+
+.sectionContainer {
+  background-color: rgb(235, 254, 253);
+  overflow: hidden;
+}
+
+.navbarRow {
+  padding: .5rem 0rem 0rem 0rem;
+}
+
+.contributeRow {
+  padding-bottom: 5rem;
+}
+
+.logo {
+  width: 6rem;
+  padding: 0rem 0rem 0rem 1rem;
+}
+
+
+.button {
+  border-radius: 100px;
+}
+
+.navbarButton {
+  float: right;
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+
+.banner {
+  width: 100vw;
+  padding: 0rem 0rem 1rem 0rem;
+}
+
+.title {
+  text-align: center;
+  padding: 1rem 0rem 1rem 0rem;
+}
+
+.centered {
+  text-align: center;
+}
+
+.bannerBreak {
+  text-align: center;
+  width: 100vw;
+}
+
+.sectionBreak {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.sectionRow {
+  padding-top: 5rem;
+}
+
+.leftHalf {
+  padding-left: 20rem;
+}
+
+
+.leftTextHalf {
+  padding: 0rem 3rem 0rem 3rem;
+}
+
+.rightTextHalf {
+  padding: 0rem 30rem 0rem 3rem;
+}
+
+.rightImageHalf {
+  padding-left: 0vw;
+}
+
+.leftImageHalf {
+  padding-left: 10rem;
+}
+
+.wholeSection {
+  padding-left: 15rem;
+  padding-right: 15rem;
+}
+
+.contributeContainer {
+  background-color: #13152b;
+  color: #ffffff;
+  border-radius: 20px;
+  padding: 2rem 2rem .25rem 2rem;
+}
+
+.secondaryTextContainer {
+  background-color: #13152b;
+  color: #ffffff;
+  border-radius: 20px;
+  padding: 2rem 2rem .25rem 2rem;
+}
+
+.rectangleSection {
+  background-color: #13152b;
+  color: #ffffff;
+  border-radius: 20px;
+  padding: 2rem 2rem .25rem 2rem;
+  margin-bottom: 5rem;
+  text-align: left;
+}
+
+.sectionImage {
+  width: 69.9%;
+  border-radius: 75px;
+}
+
+.QRimageContainer {
+  text-align: center;
+}
+
+.QRimage {
+  width: 75%;
+}
+
+.copyButtonContainer {
+  text-align: center;
+}
+
+.copyButton {
+  width: 75%;
+  border-radius: 25px;
+  color: #ffffff;
+  border-width: 3px;
+  border-color: #ffffff;
+}
+
+.emailButton {
+  margin-top: 2rem;
+  border-color: #13152b;
+  color: #13152b;
+  font-size: 15px;
+  border-width: 2px;
+}
+
+.cardButtonImage {
+  width: 75%;
+}
+
+
+.footerRow {
+  padding: 0rem 0rem 0rem 0rem;
+  margin: 0rem 0rem -2rem 0rem;
+}
+
+.copyButton:hover {
+  color: rgb(4, 213, 255);
+  border-color: rgb(4, 213, 255);
+}
+
+.copyButton:active {
+  color: rgb(4, 213, 255);
+  border-color: rgb(4, 213, 255);
+}
+
+.cardButtonImage:hover {
+  cursor: pointer;
+}
+
+
+@media (max-width: 750px) {
+  .sectionRow {
+    padding-top: 2rem;
+  }
+
+  .leftHalf {
+    padding-left: 0rem;
+    padding-bottom: 5rem;
+  }
+
+  .rightTextHalf {
+    padding-right: 3rem;
+  }
+
+  .rightImageHalf {
+    padding-left: 15vw;
+    padding-top: 3rem;
+  }
+
+  .leftImageHalf {
+    padding-left: 8vw;
+    padding-top: 3rem;
+  }
+
+  .wholeSection {
+    padding-left: 4vw;
+    padding-right: 4vw;
+  }
+
+  .sectionImage {
+    width: 82.5%;
+    border-radius: 45px;
+  }
+
+  .bannerBreak {
+    width: 135vw;
+  }
+
+  .footerRow {
+    margin: 0rem 0rem -1rem 0rem;
+  }
+
+  .tripleContainer {
+    width: 85%;
+    padding-left: 7.5%;
+    padding-bottom: 8rem;
+  }
+
+  .contributeContainer {
+    margin-bottom: 3rem;
+  }
+
+  .copyButton {
+    width: 75%;
+  }
+
+  .QRimage {
+    width: 75%;
+  }
+  
+}
