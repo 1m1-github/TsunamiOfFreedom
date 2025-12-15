@@ -1,3 +1,1 @@
-# TsunamiOfFreedom
-
-https://tsunamioffreedom.org
+# frontend
